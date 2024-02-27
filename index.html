@@ -8,149 +8,57 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="header">
-        <div class="container">
-            <nav>
-                <img src="images/logo.jpg" class="logo">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact me</a></li>
-                </ul>
-            </nav>
-            <div class="header-text">
-            <p>UX/UI Designer | Brand Designer </p>
-            <h1>Hi, I'm <span>Giulia Mariani</span><br>from Italy</h1>
-            <a href=""> Contact me</a>
-            <a href=""> Dowload CV</a>
-            </div>
-        </div>
-    </div>
-<!-- about -->
-    <div class="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="images/Me.jpg">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="subtitle">About me</h1>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('Education')">Education</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="Skills">
-                        <ul>
-                            <li><span>UX/UI</span><br>Designing Web/App interfaces</li>
-                            <li><span>Brand design</span><br>Designing logo and brand identity</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="Education">
-                        <ul>
-                            <li><span>2022-2024</span><br>Master in UX/UI design at Start2impact University</li>
-                            <li><span>2018-2021</span><br>Bachelor's degree in Media Studies at Università degli Studi di Bergamo</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
- <!-- services -->
- <div id="services">
-    <div class="container">
-        <h1 class="subtitle">My Services</h1>
-        <div class="services-list">
-            <div>
-                <img src="images/Ecodream project.png">
-                <h2>Logo Design</h2>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                <a href="#">Learn more</a>
-            </div>
-            <div>
-                <img src="images/Ecodream project.png">
-                <h2>Visual Identity Design</h2>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                <a href="#">Learn more</a>
-            </div>
-            <div>
-                <img src="images/Ecodream project.png">
-                <h2>UX/UI Design</h2>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                <a href="#">Learn more</a>
-            </div>
-        </div>
-    </div>
- </div>
-<!-- projects -->
-<div id="projects">
-    <div class="container">
-        <div class="row">
-            <div class="projects-col-1">
-                <h1 class="subtitle">My Projects</h1>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                <a href="#">Learn more</a>
-            </div>
-            <div class="projects-col-2">
-                <div class="work-list">
-                        <div>
-                            <img src="images/Ecodream project.png">
-                            <p>UX/UI Design case study</p>
-                            <h2>Ecodream</h2>
-                        </div>
-                        <div>
-                            <img src="images/Ecodream project.png">
-                            <p>UX/UI Design case study</p>
-                            <h2>Ecodream</h2>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- contact section -->
-<div class="contact">
-    <div class="container">
-        <h1>Do you have a project that needs bringing to life?</h1>
-        <p>Book a discovery call with me! Guarenteed response within 48 hours.</p>
-        <a href="">Contact me</a>
-    </div>
-</div>
-<!-- footer -->
-<div id="footer">
-    <div class="container">
+    <div class="hero">
         <nav>
-            <img src="images/logo.jpg" class="logo">
+            <h2 class="logo"> Giulia Mariani</h2>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About me</a></li>
+                <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact me</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
-            <p>© 2024 Giulia Mariani Design</p>
-            </div>
         </nav>
+        <div class="header-text">
+            <p>Jr. UX/UI Designer | Brand Designer</p>
+            <h1>Hi, I'm Giulia  </h1>
+        </div>
     </div>
-</div>
 
-<script>
+    <!-- about -->
+    <div id="about">
+        <div class="about-info">
+            <div>
+                <img src="images/lala.png">
+            </div>
+            <div>
+                <h2 class="sub-title-about"> About me</h2>
+                <p>As a passionate designer, I believe in the power of creativity to transform ideas into captivating experiences. With a keen eye for detail and a love for aesthetics, I strive to craft designs that not only meet but exceed expectations.
+                My journey in design has been marked by a deep commitment to understanding the needs and aspirations of my clients. By listening attentively and empathizing with their vision, I collaborate closely to bring their dreams to life through thoughtful and innovative solutions. With a background in [mention your expertise or experience], I bring a unique perspective to every project I undertake. Whether it's creating stunning visuals, developing intuitive user interfaces, or crafting memorable branding identities, I approach each task with enthusiasm and dedication.
 
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
+                Beyond the pixels and lines, I believe in the importance of building meaningful connections. Every project is an opportunity to forge lasting relationships and make a positive impact in the world.
+            
+                Thank you for considering me as your design partner. I look forward to embarking on this creative journey together and turning your ideas into reality.
+            
+                Let's design something remarkable!
+            </div>
+        </div>
+    </div>
 
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
-        }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
-</script>
+
+    <!-- services -->
+    <div id="services">
+            <div class="services-list">
+                <div>
+                    <h2>Logo design</h2>
+                    <p>As a passionate designer, I believe in the power of creativity to transform ideas into captivating experiences.</p>
+                </div>
+                <div>
+                    <h2>Brand design</h2>
+                </div>
+                <div>
+                    <h2>UX/UI design</h2>
+                </div>
+            </div>
+    </div>
 </body>
 </html>
