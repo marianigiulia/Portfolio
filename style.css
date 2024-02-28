@@ -87,6 +87,7 @@ nav ul li a:hover::after{
    margin-top: 50px; 
  }
 
+
  .box {
    width: 300px;
    height: 310px;
@@ -98,24 +99,28 @@ nav ul li a:hover::after{
  .with-border {
    border-color: #262626;
    border-style: solid;
-   border-width: 40px;
+   border-width: 20px;
    border-radius: 10px;
  }
 
 
  .about-info div{
    background: #262626;
-   padding: 40px;
    font-size: 13px;
    font-weight: 300;
    border-radius: 10px;
  }
 
+ .text{
+   padding: 40px;
+ }
+
+
 
 
 /* services */
  #services{
-   padding: 20px 20% 50px;
+   padding: 10px 20% 50px;
  }
 
  .services-list{
