@@ -179,7 +179,7 @@ body {
       .alternate-font {
         font-family: "Rock Salt", cursive;
         font-size: 71px;
-        font-weight: 400;
+        font-weight: 800;
       }
 
       
@@ -357,9 +357,10 @@ body {
         padding-left: 80px;
       }
 
-      .alternate-font{
+      .alternate-font-footer{
         font-family: "Rock Salt", cursive;
-        font-weight: 400;
+        font-size: 130px;
+        font-weight: 800;
       }
 
       .contact-text h1 {
@@ -475,6 +476,10 @@ body {
         flex-direction: column; 
       }
 
+      .alternate-font-footer{
+        font-size: 80px;
+      }
+
       .contact-text {
         margin-top: 100px; 
       }
@@ -511,6 +516,10 @@ body {
       @media screen and (max-width: 767px) {
         .contact-text h1 {
           font-size: 70px; 
+        }
+
+        .alternate-font-footer{
+          font-size: 50px;
         }
 
         .arrow-icon img {

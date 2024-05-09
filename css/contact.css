@@ -178,11 +178,11 @@ body {
           animation-delay: 0.4s;
       }
 
-      .alternate-font {
-          font-family: "Rock Salt", cursive;
-          font-size: 120px;
-          font-weight: 400;
-        }
+      .alternate-font{
+        font-family: "Rock Salt", cursive;
+        font-size: 130px;
+        font-weight: 800;
+      }
         
       .contact-text .exclamation {
           animation-delay: 0.5s; 

@@ -162,9 +162,10 @@ body {
             animation-delay: 0.2s;
         }
 
-        .alternate-font {
+        .alternate-font{
           font-family: "Rock Salt", cursive;
-          font-weight: 400;
+          font-size: 130px;
+          font-weight: 800;
         }
         
         /* Animazione flip and rotate */
@@ -233,12 +234,16 @@ body {
         }
       
 
-/* Servizi mobile*/
+/* Servizi tablet*/
 
       @media screen and (max-width: 991px) {
         .grid-container {
           display: block; 
           padding: 30px; 
+        }
+
+        .alternate-font{
+          font-size: 80px;
         }
        
         .big-column {
@@ -276,6 +281,10 @@ body {
         @media screen and (max-width: 767px) {
           .big-column {
               font-size: 50px;  
+          }
+
+          .alternate-font{
+            font-size: 50px;
           }
             
           .small-column h1 {
