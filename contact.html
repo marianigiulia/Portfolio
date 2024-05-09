@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giulia Mariani</title>
+    <link rel="icon" type="image/x-icon" href="images/logo favicon.png">
+    <link href="https://db.onlinewebfonts.com/c/3a86b8ec8855002aad8b288eaba8915d?family=Myriad+Variable+Concept" rel="stylesheet">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+
+<!----Navbar -->   
+        <div id="header">
+            <div class="container reveal2">
+                <nav>
+                    <a href="homepage.html"><img src="images/logo.png" class="logo" alt="Logo"></a>
+                    <ul>
+                        <li><a href="homepage.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <div class="menu-toggle">&#9776;</div>
+                </nav>
+            </div> 
+        </div>
+
+
+
+ <!----hero section  -->
+        <main>
+            <div class="contact-section reveal2">
+                <div class="contact-text">
+                    <h1>L<span class="alternate-font">E</span>T'S GET</h1>
+                    <h1 class="indent">IN T<span class="alternate-font">O</span>UCH<span class="alternate-font exclamation">!</span></h1>
+                </div>
+
+
+<!----contact me  -->
+                <div class="grid">
+                    <div class="left-column">
+                        <form autocomplete="off" method="post" name="google-sheet">
+                            <p>What can I help you with?</p>
+                                <div class="input-field-group">
+                                    <div class="input-field half">
+                                        <label for="name" class="visually-hidden">Your name</label>
+                                        <input type="text" id="name" placeholder="Your name" name="name" required>
+                                    </div>   
+                                    <div class="input-field half">
+                                        <label for="brand" class="visually-hidden">Your brand name</label>
+                                        <input type="text" id="brand" placeholder="Your brand name" name="brand" required>
+                                    </div>  
+                                </div>     
+                                <div class="input-field">
+                                    <label for="email" class="visually-hidden">Your email</label>
+                                    <input type="email" id="email" placeholder="Your email" name="email" required>
+                                </div>  
+                                <div class="input-field">
+                                    <label for="service" class="visually-hidden">Select a service</label>
+                                    <select id="service" name="service">
+                                        <option value="Not Selected">Select a service</option>
+                                        <option value="LogoDesign">Logo Design</option>
+                                        <option value="BrandDesign">Brand Design</option>
+                                        <option value="UX/UIDesign">UX/UI Design</option>
+                                    </select>
+                                </div>  
+                                <div class="input-field">
+                                    <label for="textarea" class="visually-hidden">Tell me more about you and your project!</label>
+                                    <textarea rows="4" id="textarea" placeholder="Tell me more about you and your project!" name="message" required></textarea>
+                                </div>   
+                            <button type="submit">Send me a message</button>
+                        </form>  
+                    </div>
+                    <div class="right-column">
+                        <div class="social-icons">
+                            <span><a href="https://www.behance.net/giuliamariani99" target="_blank"><img src="images/behance.png" alt="Behance icon"></a></span>
+                            <span><a href="https://www.linkedin.com/in/giulia-mariani99/" target="_blank"><img src="images/linkedin.png" alt="Linkedin icon"></a></span>
+                        </div>
+                        <h2>I'm here to listen and transform your ideas into something truly remarkable.<br> Drop me a message and let's get started on your project.</h2>
+                        <p>©2024 Giulia Mariani. All Rights Reserved. </p>
+                    </div>
+                </div>
+            </div>
+        </main>    
+
+ <!----Javascript  -->        
+
+        <script src="javascript/menutoggle.js"></script>
+        <script src="javascript/reveal2.js"></script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwHoD4fgRscyL8vADqnLwOh_f7CbEoJh4wbkPJLh9AcFcJ941OQOo-l7R8BHtRzWlT4Mw/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    alert("Thanks for contacting me! I will reach out to you soon.");
+                    form.reset(); 
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+
+   
+</body>
+</html>
