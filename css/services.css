@@ -19,7 +19,7 @@ body {
     }
 
     .container {
-        padding: 40px 7%;
+        padding: 30px 7%;
         box-shadow: 0px 0px 20px #bebebe;
     }
 
@@ -30,7 +30,7 @@ body {
     }
 
     .logo {
-      width: 300px;
+      width: 250px;
     }
 
     nav ul li{
@@ -41,7 +41,7 @@ body {
     nav ul li a{
       color:#000;
       text-decoration: none;
-      font-size: 27px;
+      font-size: 24px;
       font-weight: 700;
       position: relative;
     }
@@ -333,7 +333,7 @@ body {
       .contact-text h1 {
         font-weight: bold; 
         margin: 0; 
-        font-size: 180px;
+        font-size: 150px;
         font-variation-settings: "wdth" 100, "wght" 700;
       }
       
@@ -422,7 +422,7 @@ body {
 
       .contact-action h2 {
         padding-bottom: 30px;
-        font-size: 20px;
+        font-size: 18px;
         letter-spacing: 2px;
         line-height: 1.5;
         text-align: right;
