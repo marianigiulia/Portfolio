@@ -147,7 +147,7 @@ body {
 
     .hero-section {
         color: #000;  
-        padding: 60px 7%;
+        padding: 40px 7%;
       }
       
       .hero-section h1 {
@@ -155,18 +155,6 @@ body {
         margin: 0; 
         font-size: 205px;
       }
-      
-      .hero-section h2 {
-        font-weight: bold; 
-        margin: 0; 
-        font-size: 91px;
-      }
-
-
-      .hero-section h2 span {
-        color: #5DA9E9; 
-      }
-      
 
       .hero-section .alternate-font {
           display: inline-block;
@@ -178,7 +166,8 @@ body {
 
       .alternate-font {
         font-family: "Rock Salt", cursive;
-        font-size: 71px;
+        color: #5DA9E9;
+        font-size: 130px;
         font-weight: 800;
       }
 
@@ -186,6 +175,10 @@ body {
       .hero-section h1:nth-child(1) .alternate-font { 
           animation-delay: 0.2s;
       }
+
+      .hero-section h1:nth-child(2) .alternate-font { 
+        animation-delay: 0.5s;
+    }
 
 
       /* Animazione flip and rotate */
@@ -261,7 +254,7 @@ body {
       .grid-container {
         display: flex;
         flex-wrap: wrap;
-        padding: 40px 7%;
+        padding: 20px 7% 60px 7%;
       }
       
       .column {
@@ -359,6 +352,7 @@ body {
 
       .alternate-font-footer{
         font-family: "Rock Salt", cursive;
+        color: #5DA9E9; 
         font-size: 130px;
         font-weight: 800;
       }
@@ -374,7 +368,7 @@ body {
         color: #5DA9E9; 
       }
       
-      .contact-text .alternate-font {
+      .contact-text .alternate-font-footer {
           display: inline-block;
           animation-name: loading;
           animation-duration: 2s;
@@ -382,15 +376,15 @@ body {
           animation-iteration-count: infinite;
       }
 
-      .contact-text h1 .alternate-font { /* per "E" */
+      .contact-text h1 .alternate-font-footer { /* per "E" */
           animation-delay: 0.2s;
       }
 
-      .contact-text h1:nth-child(2) .alternate-font { /* per "I" */
+      .contact-text h1:nth-child(2) .alternate-font-footer { /* per "I" */
           animation-delay: 0.5s;
       }
 
-      .contact-text h1:nth-child(3) .alternate-font { /* per "O" */
+      .contact-text h1:nth-child(3) .alternate-font-footer { /* per "O" */
         animation-delay: 0.7s;
       }
 
