@@ -541,40 +541,41 @@ body {
 
 
         .container {
-          color: #000; 
-          padding: 40px; 
+          display: flex;
+          align-items: center;
+          height: 20vh;
+          overflow: hidden; 
         }
 
-        .alternate-font-1 {
+        .scroll {
+          white-space: nowrap;
+        }
+
+        .scroll div {
+          display: flex;
+          gap: 2em;
+        }
+
+        .scroll p {
+          color: #000;
           font-family: "Rock Salt", cursive;
           font-size: 80px;
           font-weight: 200;
         }
 
+        .RightToLeft {
+          animation: RightToLeft 10s infinite linear;
+        }
 
-/* Work text tablet */
-          @media screen and (max-width: 991px) {
-              #scrolling-text {
-                padding-top: 40px; 
-                padding-bottom: 0px;
-                position: relative; 
-                margin-bottom: 0px; 
-              }
-
-              .alternate-font-1{
-                font-size: 60px;
-              }
+        @keyframes RightToLeft {
+          from {
+            transform: translateX(0%);
           }
-/* Work text mobile */
-          @media screen and (max-width: 767px) {
-            #scrolling-text {
-              padding-top: 50px; 
-            }
-
-            .alternate-font-1{
-              font-size: 40px;
-            }
+          to {
+            transform: translateX(-50%);
           }
+        }
+
 
 
 
@@ -583,9 +584,7 @@ body {
 /* projects */
 
         .first-project{
-          padding: 40px 7%;
-          padding-top: 200px;
-
+          padding: 10px 7% 40px 7%;
         }
 
         .img-area {
@@ -610,7 +609,7 @@ body {
           align-items: start; 
           gap: 30px; 
           color: black;
-          padding: 30px 0% 10px;
+          padding: 0px 0% 10px 0%;
           margin-bottom: -20px;
         }
         
