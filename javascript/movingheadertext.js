@@ -9,11 +9,10 @@ document.addEventListener('scroll', function() {
     const maxWidth = window.innerWidth;
     let maxRightScrollWidth;
 
-    // Imposta un valore diverso per maxRightScrollWidth in base alla larghezza dello schermo
-    if (maxWidth <= 768) { // Esempio: consideriamo dispositivi con larghezza massima di 768px come dispositivi mobili
-        maxRightScrollWidth = maxWidth / 2; // Ad esempio, riduci la larghezza massima relativa per dispositivi mobili
+    if (maxWidth <= 768) { 
+        maxRightScrollWidth = maxWidth / 2; 
     } else {
-        maxRightScrollWidth = maxWidth / 2.5; // Imposta la larghezza massima relativa per desktop
+        maxRightScrollWidth = maxWidth / 2.5; 
     }
 
     if (scrollPosition > maxRightScrollWidth) {
