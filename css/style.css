@@ -118,8 +118,8 @@ body {
       }
 
 /* Navbar mobile */
-        @media (max-width:767px) {
-          .container {
+        @media (max-width: 767px) {
+          .container-nav {
             padding: 20px 7%;
           }
 
