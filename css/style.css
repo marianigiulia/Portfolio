@@ -118,8 +118,16 @@ body {
 
 /* Navbar mobile */
       @media (max-width:767px) {
+        .container {
+          padding: 30px 7%;
+        }
+
+        nav ul {
+          top: 50px; 
+        }
+
         .logo {
-          width: 250px; 
+          width: 200px; 
         }
 
         nav ul li {
@@ -133,11 +141,11 @@ body {
         }
 
         .menu-toggle {
+          top: 20px;
           font-size: 24px;
         }
 
       }
-
 
 
 
