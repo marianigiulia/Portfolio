@@ -288,7 +288,7 @@ body {
 
 /* Servizi mobile*/
         @media screen and (max-width: 767px) {
-          .big-column {
+          .big-column h2 {
               font-size: 60px;  
           }
 
