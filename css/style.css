@@ -593,7 +593,7 @@ body {
 /* Work text mobile */
         @media screen and (max-width: 767px) {
           .container {
-            height: 10vh;
+            height: 20vh;
           }
 
           .scroll p {
