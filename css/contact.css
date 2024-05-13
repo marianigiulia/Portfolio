@@ -153,11 +153,9 @@ body {
 /* hero section */
 
       .contact-section {
-          margin: 70px 7%;
+          margin: 50px 7%;
           text-align: left;
       }
-
-     
 
       .indent {
           padding-left: 100px;
@@ -343,7 +341,7 @@ body {
     }
 
     .right-column h2 {
-      padding-bottom: 20px;
+      padding-left: 60px;
       font-size: 20px;
       padding-bottom: 30px;
       letter-spacing: 1px;
@@ -376,6 +374,7 @@ body {
       }
     
       .right-column h2 {
+        padding-left: 0px;
         text-align: left;
         font-size: 20px;
         padding-bottom: 10px;
