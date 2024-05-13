@@ -221,9 +221,13 @@ body {
 
         }
 
-/* hero section tablet */
+/* hero section mobile */
         @media (max-width: 767px) 
         {
+          .hero-section {
+            padding: 40px 7% 20px 7%;
+          }
+
           .hero-section h1 {
             font-size: 80px;
           }
@@ -317,7 +321,7 @@ body {
 
       @media screen and (max-width: 767px) {
         .grid-container {
-          padding: 20px 0% 60px 0%;
+          padding: 10px 0% 60px 0%;
         }
       }
     
