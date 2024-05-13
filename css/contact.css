@@ -230,11 +230,11 @@ body {
       @media (max-width: 767px) 
       {
         .contact-text h1 {
-          font-size: 60px;
+          font-size: 50px;
         }
 
         .alternate-font {
-          font-size: 40px;
+          font-size: 30px;
         }
       }        
 
