@@ -543,7 +543,7 @@ body {
         .container {
           display: flex;
           align-items: center;
-          height: 20vh;
+          height: 15vh;
           overflow: hidden; 
         }
 
@@ -561,6 +561,7 @@ body {
           font-family: "Rock Salt", cursive;
           font-size: 80px;
           font-weight: 200;
+          padding-top: 60px;
         }
 
         .RightToLeft {
@@ -574,6 +575,32 @@ body {
           to {
             transform: translateX(-50%);
           }
+        }
+
+/* Work text tablet */
+        @media screen and (max-width: 991px) {
+          .container {
+            height: 15vh;
+          }
+
+          .scroll p {
+            padding-top: 60px;
+            font-size: 60px;
+          }
+
+        }
+
+/* Work text mobile */
+        @media screen and (max-width: 767px) {
+          .container {
+            height: 10vh;
+          }
+
+          .scroll p {
+            padding-top: 60px;
+            font-size: 40px;
+          }
+
         }
 
 
