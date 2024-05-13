@@ -162,7 +162,7 @@ body {
       .hero-section h1 {
         font-weight: bold; 
         margin: 0; 
-        font-size: 205px;
+        font-size: 180px;
       }
 
       .hero-section .alternate-font {
@@ -176,7 +176,7 @@ body {
       .alternate-font {
         font-family: "Rock Salt", cursive;
         color: #5DA9E9;
-        font-size: 130px;
+        font-size: 110px;
         font-weight: 800;
       }
 
