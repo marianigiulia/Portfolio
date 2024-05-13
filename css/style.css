@@ -992,6 +992,10 @@ body {
            transform: translateX(0);
            opacity: 1;
          }
+
+         .alternate-font-footer{
+          font-size: 80px;
+         }
  
          .arrow-icon img {
            max-width: 50px; 
@@ -1013,6 +1017,10 @@ body {
           .contact-text h1 {
             font-size: 70px; 
           }
+
+          .alternate-font-footer{
+            font-size: 50px;
+           }
 
           .arrow-icon img {
             max-width: 50px; 

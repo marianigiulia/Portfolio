@@ -12,7 +12,7 @@ document.addEventListener('scroll', function() {
     if (maxWidth <= 768) { 
         maxRightScrollWidth = maxWidth / 2; 
     } else {
-        maxRightScrollWidth = maxWidth / 2.5; 
+        maxRightScrollWidth = maxWidth / 1.5; 
     }
 
     if (scrollPosition > maxRightScrollWidth) {

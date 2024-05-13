@@ -315,142 +315,144 @@ body {
 
 /* footer */
 
-      .site-footer {
-        background-color: #333;
-        color: #F5F3EF;
-        padding: 0px 7% 50px;
-      }
-      
-      .footer-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: stretch; 
-        height: 100%; 
-      }
-      
-      .contact-text{
-        margin-top: 150px;
-      }
-
-      /* Animation */
-
-      .indent {
-        padding-left: 80px;
-      }
-
-      .alternate-font{
-        font-family: "Rock Salt", cursive;
-        font-weight: 400;
-      }
-
-      .contact-text h1 {
-        font-weight: bold; 
-        margin: 0; 
-        font-size: 150px;
-        font-variation-settings: "wdth" 100, "wght" 700;
-      }
-      
-      .contact-text h1 span {
-        color: #5DA9E9; 
-      }
-      
-      .contact-text .alternate-font {
-        display: inline-block;
-        animation-name: loading;
-        animation-duration: 2s;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
-      }
-
-      .contact-text h1 .alternate-font { /* per "E" */
-          animation-delay: 0.2s;
-      }
-
-      .contact-text h1:nth-child(2) .alternate-font { /* per "I" */
-          animation-delay: 0.5s;
-      }
-
-      .contact-text h1:nth-child(3) .alternate-font { /* per "O" */
-        animation-delay: 0.7s;
-      }
-
-      /* Animation flip e rotate */
-      @keyframes loading {
-          0%, 80% {
-              transform: rotateY(360deg);
-          }
-        }
-
-      .contact-text h1 {
-        transform: translateX(100%);
-        opacity: 0;
-        transition: all 0.5s ease-out;
-      }
-
-      .contact-text h1.slide-in {
-        transform: translateX(0);
-        opacity: 1;
-      }
-
-
-/* right column and animation */
-
-      .contact-action {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end; 
-        justify-content: flex-end; 
-        height: 100%; 
-        margin-top: auto; 
-      }
-
-      #rotating-text {
-        animation: rotation 30s infinite linear;
-        width: 100%;
-        align-items: end;
-      }
-
-          @keyframes rotation {
-          from {
-          transform: rotate(0deg);
-          }
-          to {
-          transform: rotate(360deg);
-          }
+          .site-footer {
+            background-color: #333;
+            color: #F5F3EF;
+            padding: 0px 7% 50px;
           }
 
-      svg textPath { 
-        font-size: 36px; 
-        text-transform: uppercase;
-        letter-spacing: 20px; 
-        fill: #F5F3EF; 
-      }
+          .footer-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch; 
+            height: 100%; 
+          }
+
+          .contact-text{
+            margin-top: 150px;
+          }
+
+          .alternate-font-footer{
+            font-family: "Rock Salt", cursive;
+            font-size: 80px;
+            font-weight: 800;
+          }
+
+          /* Animation */
+
+          .indent {
+            padding-left: 40px;
+          }
+
+
+          .contact-text h1 {
+            font-weight: bold; 
+            margin: 0; 
+            font-size: 120px;
+            font-variation-settings: "wdth" 100, "wght" 700;
+          }
+
+          .contact-text h1 span {
+            color: #5DA9E9; 
+          }
+
+          .contact-text .alternate-font-footer {
+              display: inline-block;
+              animation-name: loading;
+              animation-duration: 2s;
+              animation-timing-function: linear;
+              animation-iteration-count: infinite;
+          }
+
+          .contact-text h1 .alternate-font-footer { /* per "E" */
+              animation-delay: 0.2s;
+          }
+
+          .contact-text h1:nth-child(2) .alternate-font-footer { /* per "I" */
+              animation-delay: 0.5s;
+          }
+
+          .contact-text h1:nth-child(3) .alternate-font-footer { /* per "O" */
+            animation-delay: 0.7s;
+          }
+
+          /* Animation flip e rotate */
+          @keyframes loading {
+              0%, 80% {
+                  transform: rotateY(360deg);
+              }
+            }
+
+          .contact-text h1 {
+            transform: translateX(100%);
+            opacity: 0;
+            transition: all 0.5s ease-out;
+          }
+
+          .contact-text h1.slide-in {
+            transform: translateX(0);
+            opacity: 1;
+          }
+
+
+          /* right column and animation */
+
+          .contact-action {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end; 
+          justify-content: flex-end; 
+          height: 100%; 
+          margin-top: auto; 
+          }
+
+          #rotating-text {
+            animation: rotation 30s infinite linear;
+            width: 100%;
+            align-items: end;
+          }
+
+              @keyframes rotation {
+              from {
+              transform: rotate(0deg);
+              }
+              to {
+              transform: rotate(360deg);
+              }
+              }
+
+          svg textPath { 
+            font-size: 36px; 
+            text-transform: uppercase;
+            letter-spacing: 20px; 
+            fill: #F5F3EF; 
+          }
 
 
 
-      .arrow-icon img {
-        max-width: 80px;
-        margin-bottom: 20px; 
-      }
+          .arrow-icon img {
+          max-width: 80px;
+          margin-bottom: 20px; 
+          }
 
-      .contact-action h2 {
-        padding-bottom: 30px;
-        font-size: 18px;
-        letter-spacing: 2px;
-        line-height: 1.5;
-        text-align: right;
-      }
+          .contact-action h2 {
+          padding-bottom: 30px;
+          font-size: 18px;
+          letter-spacing: 2px;
+          line-height: 1.5;
+          text-align: right;
+          }
 
-      .contact-action p{
-        margin-bottom: 50px;
-      }
+          .contact-action p{
+          margin-bottom: 50px;
+          }
 
 
 
 /* Footer tablet */
 
-      @media screen and (max-width: 991px) {
-            
+        @media screen and (max-width: 991px) {
+
         .footer-container {
           display: flex;
           flex-direction: column; 
@@ -471,6 +473,10 @@ body {
         .contact-text h1 {
           transform: translateX(0);
           opacity: 1;
+        }
+
+        .alternate-font-footer{
+          font-size: 80px;
         }
 
         .arrow-icon img {
@@ -494,6 +500,10 @@ body {
             font-size: 70px; 
           }
 
+          .alternate-font-footer{
+            font-size: 50px;
+          }
+
           .arrow-icon img {
             max-width: 50px; 
           }
@@ -512,3 +522,6 @@ body {
           }
 
         }
+  
+
+
