@@ -340,7 +340,7 @@ body {
         @media screen and (max-width: 767px) {
 
           .main-column h1 {
-            font-size: 80px;
+            font-size: 60px;
           }
 
           .main-column h2{
@@ -349,7 +349,7 @@ body {
           }
 
           .alternate-font {
-            font-size: 60px;
+            font-size: 40px;
           }
         
           .full-row-1 h3{
