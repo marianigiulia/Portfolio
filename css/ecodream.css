@@ -136,35 +136,35 @@ body {
     }
 
 /* Navbar mobile */
-    @media (max-width:767px) {
-      .container {
-        padding: 30px 7%;
-      }
+      @media (max-width:767px) {
+        .container {
+          padding: 25px 7%;
+        }
 
-      nav ul {
-        top: 50px; 
-      }
+        nav ul {
+          top: 60px; 
+        }
 
-      .logo {
-        width: 200px; 
-      }
+        .logo {
+          width: 200px; 
+        }
 
-      nav ul li {
-        display: block;
-        margin: 80px 0;
-      }
+        nav ul li {
+          display: block;
+          margin: 90px 0;
+        }
 
-      nav ul li a{
-        font-weight: 300;
-        font-size: 22px;
-      }
+        nav ul li a{
+          font-weight: 300;
+          font-size: 22px;
+        }
 
-      .menu-toggle {
-        top: 20px;
-        font-size: 24px;
-      }
+        .menu-toggle {
+          top: 30px;
+          font-size: 24px;
+        }
 
-    }
+      }
 
 
 
