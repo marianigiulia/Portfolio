@@ -288,6 +288,10 @@ body {
 
 /* Servizi mobile*/
         @media screen and (max-width: 767px) {
+          .grid-container {
+            padding: 10px 30px 30px 30px; 
+          }
+
           .big-column h2 {
               font-size: 60px;  
           }
