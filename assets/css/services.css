@@ -155,10 +155,6 @@ body {
 
 /* Servizi*/
 
-        .big-column h2 span {
-            color: #005e8c; 
-        }
-        
         .big-column .alternate-font {
             display: inline-block;
             animation-name: loading;
@@ -175,6 +171,7 @@ body {
           font-family: "Rock Salt", cursive;
           font-size: 130px;
           font-weight: 800;
+          color: #005e8c; 
         }
         
         /* Animazione flip and rotate */
