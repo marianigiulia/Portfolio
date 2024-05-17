@@ -166,7 +166,7 @@ body {
         
         .hero-section h1 span,
         .hero-section h2 span {
-          color: #5DA9E9; 
+          color: #107896; 
         }
         
 
@@ -555,7 +555,7 @@ body {
           gap: 2em;
         }
 
-        .scroll p {
+        .scroll h2 {
           color: #000;
           font-family: "Rock Salt", cursive;
           font-size: 80px;
@@ -579,7 +579,7 @@ body {
 /* Work text tablet */
         @media screen and (max-width: 991px) {
 
-          .scroll p {
+          .scroll h2 {
             padding-top: 60px;
             font-size: 60px;
           }
@@ -589,7 +589,7 @@ body {
 /* Work text mobile */
         @media screen and (max-width: 767px) {
 
-          .scroll p {
+          .scroll h2 {
             padding-top: 60px;
             font-size: 40px;
           }
