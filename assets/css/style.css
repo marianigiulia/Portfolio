@@ -51,7 +51,7 @@ body {
         content: "";
         width: 0;
         height: 3px;
-        background: #5DA9E9 ;
+        background: #0069a3 ;
         position: absolute;
         left: 0;
         bottom: -6px;
@@ -166,7 +166,7 @@ body {
         
         .hero-section h1 span,
         .hero-section h2 span {
-          color: #107896; 
+          color: #0069a3; 
         }
         
 
@@ -664,8 +664,7 @@ body {
         }
         
         .button a:hover {
-          background-color: #5DA9E9; 
-          color: #000;
+          background-color: #0069a3; 
         }
         
         .button .disabled {
@@ -871,7 +870,7 @@ body {
       }
       
       .contact-text h1 span {
-        color: #5DA9E9; 
+        color: #3df1ff; 
       }
       
       .contact-text .alternate-font-footer {

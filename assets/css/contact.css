@@ -257,7 +257,7 @@ body {
         margin-top: 80px;
     }
 
-    .left-column p{
+    .left-column h2{
         font-size: 27px;
         font-weight: 600;
         padding-bottom: 20px;
@@ -389,7 +389,7 @@ body {
 /* contact me mobile */
       @media (max-width: 768px) 
       {
-        .left-column p{
+        .left-column h2{
           font-size: 24px;
       }
         .social-icons img{
