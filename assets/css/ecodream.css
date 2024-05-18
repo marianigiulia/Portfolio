@@ -51,7 +51,7 @@ body {
       content: "";
       width: 0;
       height: 3px;
-      background: #5DA9E9 ;
+      background: #0069a3;
       position: absolute;
       left: 0;
       bottom: -6px;
@@ -177,10 +177,6 @@ body {
         padding-bottom: 50px;
         padding: 60px 7%;
       }
-
-      .main-column h1 span {
-        color: #5DA9E9; 
-      }
       
       .main-column .alternate-font {
         display: inline-block;
@@ -203,6 +199,7 @@ body {
         font-family: "Rock Salt", cursive;
         font-size: 110px;
         font-weight: 800;
+        color: #0069a3;
       }
 
 
@@ -534,6 +531,7 @@ body {
         font-family: "Rock Salt", cursive;
         font-size: 80px;
         font-weight: 800;
+        color: #3df1ff; 
       }
 
       /* Animation */
@@ -550,9 +548,6 @@ body {
         font-variation-settings: "wdth" 100, "wght" 700;
       }
 
-      .contact-text h1 span {
-        color: #5DA9E9; 
-      }
 
       .contact-text .alternate-font-footer {
           display: inline-block;
