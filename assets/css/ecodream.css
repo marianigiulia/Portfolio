@@ -51,7 +51,7 @@ body {
       content: "";
       width: 0;
       height: 3px;
-      background: #0069a3;
+      background: #1287a8;
       position: absolute;
       left: 0;
       bottom: -6px;
@@ -199,7 +199,7 @@ body {
         font-family: "Rock Salt", cursive;
         font-size: 110px;
         font-weight: 800;
-        color: #0069a3;
+        color: #1287a8;
       }
 
 
@@ -531,7 +531,7 @@ body {
         font-family: "Rock Salt", cursive;
         font-size: 80px;
         font-weight: 800;
-        color: #3df1ff; 
+        color: #5da9e9; 
       }
 
       /* Animation */

@@ -50,7 +50,7 @@ body {
       content: "";
       width: 0;
       height: 3px;
-      background: #5DA9E9 ;
+      background: #1287a8;
       position: absolute;
       left: 0;
       bottom: -6px;
@@ -171,7 +171,7 @@ body {
           font-family: "Rock Salt", cursive;
           font-size: 130px;
           font-weight: 800;
-          color: #005e8c; 
+          color: #1287a8; 
         }
         
         /* Animazione flip and rotate */
@@ -333,6 +333,7 @@ body {
             font-family: "Rock Salt", cursive;
             font-size: 80px;
             font-weight: 800;
+            color: #5DA9E9; 
           }
 
           /* Animation */
@@ -347,10 +348,6 @@ body {
             margin: 0; 
             font-size: 120px;
             font-variation-settings: "wdth" 100, "wght" 700;
-          }
-
-          .contact-text h1 span {
-            color: #5DA9E9; 
           }
 
           .contact-text .alternate-font-footer {

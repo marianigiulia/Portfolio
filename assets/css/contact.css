@@ -50,7 +50,7 @@ body {
       content: "";
       width: 0;
       height: 3px;
-      background: #5DA9E9 ;
+      background: #1287a8;
       position: absolute;
       left: 0;
       bottom: -6px;
@@ -167,10 +167,6 @@ body {
         font-size: 180px;
       }
         
-      .contact-text h1 span {
-        color: #1287a9; 
-      }
-        
       .contact-text .alternate-font {
           display: inline-block;
           animation-name: loading;
@@ -187,6 +183,7 @@ body {
         font-family: "Rock Salt", cursive;
         font-size: 110px;
         font-weight: 800;
+        color: #1287a8;
       }
         
       .contact-text .exclamation {
@@ -320,8 +317,7 @@ body {
     }
 
     button:hover {
-      background-color: #5DA9E9; 
-      color: #000;
+      background-color: #1287a8; 
     }
 
     .right-column{

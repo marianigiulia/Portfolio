@@ -51,7 +51,7 @@ body {
         content: "";
         width: 0;
         height: 3px;
-        background: #0069a3 ;
+        background: #1287a8;
         position: absolute;
         left: 0;
         bottom: -6px;
@@ -664,7 +664,7 @@ body {
         }
         
         .button a:hover {
-          background-color: #0069a3; 
+          background-color: #1287a8; 
         }
         
         .button .disabled {
@@ -853,6 +853,7 @@ body {
         font-family: "Rock Salt", cursive;
         font-size: 80px;
         font-weight: 800;
+        color: #5da9e9;
       }
 
       /* Animation */
@@ -867,10 +868,6 @@ body {
         margin: 0; 
         font-size: 120px;
         font-variation-settings: "wdth" 100, "wght" 700;
-      }
-      
-      .contact-text h1 span {
-        color: #3df1ff; 
       }
       
       .contact-text .alternate-font-footer {

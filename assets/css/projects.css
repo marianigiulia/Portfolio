@@ -51,7 +51,7 @@ body {
       content: "";
       width: 0;
       height: 3px;
-      background: #5DA9E9 ;
+      background: #1287a8 ;
       position: absolute;
       left: 0;
       bottom: -6px;
@@ -175,7 +175,7 @@ body {
 
       .alternate-font {
         font-family: "Rock Salt", cursive;
-        color: #1287a9;
+        color: #1287a8;
         font-size: 110px;
         font-weight: 800;
       }
@@ -356,6 +356,7 @@ body {
         font-family: "Rock Salt", cursive;
         font-size: 80px;
         font-weight: 800;
+        color: #5DA9E9;
       }
 
       /* Animation */
@@ -364,16 +365,11 @@ body {
         padding-left: 40px;
       }
 
-
       .contact-text h1 {
         font-weight: bold; 
         margin: 0; 
         font-size: 120px;
         font-variation-settings: "wdth" 100, "wght" 700;
-      }
-
-      .contact-text h1 span {
-        color: #5DA9E9; 
       }
 
       .contact-text .alternate-font-footer {
