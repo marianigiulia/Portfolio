@@ -170,14 +170,14 @@ body {
         }
         
 
-      .inline-header, .inline-header-1 {
+      .highlight-header, .highlight-header-1 {
           text-align: end;
       }
-      .inline-header-1{
+      .highlight-header-1{
         margin-left: 15%;
       }
 
-      .inline-header h1, .inline-header h2 {
+      .highlight-header h1, .highlight-header h2 {
           display: inline; 
           margin-right: 5px; 
       }
@@ -200,7 +200,7 @@ body {
           animation-delay: 0.2s;
       }
 
-      .inline-header h2 .alternate-font { 
+      .highlight-header h2 .alternate-font { 
           animation-delay: 0.5s;
       }
 
