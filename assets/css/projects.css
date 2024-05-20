@@ -32,6 +32,7 @@ body {
 
     .logo {
       width: 250px;
+      height: 50px;
     }
 
     nav ul li{
@@ -73,7 +74,8 @@ body {
 
     @media (max-width: 991px) {
       .logo {
-          width: 300px; 
+          width: 250px; 
+          height: 50px;
       }
 
       nav ul {
@@ -128,6 +130,7 @@ body {
 
         .logo {
           width: 200px; 
+          height: 40px;
         }
 
         nav ul li {
@@ -435,11 +438,10 @@ body {
         fill: #F5F3EF; 
       }
 
-
-
       .arrow-icon img {
-      max-width: 80px;
-      margin-bottom: 20px; 
+        width: 80px;
+        height: 40px;
+        margin-bottom: 20px; 
       }
 
       .contact-action h2 {
@@ -487,7 +489,8 @@ body {
       }
 
       .arrow-icon img {
-        max-width: 50px; 
+        width: 50px; 
+        height: 30px; 
       }
 
       .contact-action h2 {
@@ -509,10 +512,6 @@ body {
 
       .alternate-font-footer{
         font-size: 50px;
-      }
-
-      .arrow-icon img {
-        max-width: 50px; 
       }
 
       .contact-action h2 {

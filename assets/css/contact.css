@@ -31,6 +31,7 @@ body {
 
     .logo {
       width: 250px;
+      height: 50px;
     }
 
     nav ul li{
@@ -73,7 +74,8 @@ body {
 
     @media (max-width: 991px) {
       .logo {
-          width: 300px; 
+          width: 250px; 
+          height: 50px;
       }
 
       nav ul {
@@ -127,7 +129,8 @@ body {
         }
 
         .logo {
-          width: 200px; 
+          width: 200px;
+          height: 40px; 
         }
 
         nav ul li {
