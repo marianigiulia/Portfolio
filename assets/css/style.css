@@ -32,6 +32,7 @@ body {
 
       .logo {
         width: 250px;
+        height: 50px;
       }
 
       nav ul li{
@@ -355,7 +356,8 @@ body {
       }
 
       .social-icons img{
-        max-width: 40px;
+        width: 40px;
+        height: 40px;
       }
 
 /* about tablet*/
@@ -608,11 +610,14 @@ body {
         }
 
         .img-area {
-          width: 100%; 
-          height: 90vh; 
           overflow: hidden; 
           display: flex;
           margin-top: 80px;
+        }
+
+        .img-area img {
+          width: 100%;
+          height: 90vh;
         }
 
         .immagineZoom2 {
@@ -934,7 +939,8 @@ body {
 
 
     .arrow-icon img {
-      max-width: 80px;
+      width: 80px;
+      height: 40px;
       margin-bottom: 20px; 
     }
 
