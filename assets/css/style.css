@@ -667,7 +667,7 @@ body {
         }
         
         .small-column-2 {
-          padding-top: 20px;
+          padding-top: 40px;
           padding-left: 20px;
           font-size: 16px;
           line-height: 1.5;
@@ -696,6 +696,13 @@ body {
         }
         
         .button .disabled {
+          text-decoration: none;
+          color: #F5F3EF;
+          border: none;
+          border-radius: 10px;
+          padding: 12px 34px;
+          font-size: 16px;
+          background: #333;
           cursor: default;
           pointer-events: none;
         }
@@ -731,7 +738,7 @@ body {
         }
           
         .small-column-3 {
-          padding-top: 20px;
+          padding-top: 40px;
           padding-left: 20px;
           font-size: 16px;
           line-height: 1.5;
