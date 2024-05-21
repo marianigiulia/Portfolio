@@ -386,7 +386,7 @@ body {
 
         .second-text-container {
           display: flex;
-          min-height: 50vh;
+          height: auto;
           width: 100%;
           padding: 40px 7%;
         }
