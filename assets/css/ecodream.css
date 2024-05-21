@@ -384,6 +384,11 @@ body {
 
 /* about the project */
 
+        section {
+          display: block;
+          unicode-bidi: isolate;
+        }
+        
         .second-text-container {
           display: flex;
           height: auto;
