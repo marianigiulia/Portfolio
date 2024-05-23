@@ -9,11 +9,6 @@
   src: url(assets/fonts/OpenSans-VariableFont_wdth,wght.ttf);
 }
 
-@font-face {
-  font-family: 'RockSalt';
-  src: url(assets/fonts/RockSalt-Regular.ttf);
-}
-
 body {
     background: #F5F3EF;
     font-family: 'Open Sans', sans-serif;
