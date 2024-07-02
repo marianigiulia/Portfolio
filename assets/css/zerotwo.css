@@ -1,0 +1,378 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+font-family: 'OpenSans';
+src: url(assets/fonts/OpenSans-VariableFont_wdth,wght.ttf);
+}
+
+
+body {
+  background: #F5F3EF;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Navbar */
+  #header {
+    position: sticky;
+    top: 0; 
+    background-color: #F5F3EF; 
+    z-index: 1000;
+    color: #000; 
+  }
+
+  .container {
+      padding: 30px 7%;
+      box-shadow: 0px 0px 20px #bebebe;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 250px;
+    height: 47px;
+  }
+
+  nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+  }
+
+  nav ul li a{
+    color:#000;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+  }
+
+  nav ul li a::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background: #1287a8;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+  }
+
+  nav ul li a:hover::after{
+    width: 100%;
+  }
+
+  .reveal2 {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1.2s ease-in-out, transform 1.2s ease-in-out;
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1.2s ease-in-out, transform 1.2s ease-in-out;
+  }
+
+
+  .is-visible {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+
+/* Navbar tablet */
+
+  @media (min-width: 992px) {
+    .menu-toggle {
+      display: none; 
+    }
+  }
+
+
+  @media (max-width: 991px) {
+    .logo {
+        width: 250px; 
+        height: 50px;
+    }
+
+    nav ul {
+      display: none;
+      position: absolute;
+      top: 100px; 
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      padding: 20px 0;
+      text-align: center;
+      z-index: 1000;
+      margin-top: 30px;
+    }
+
+    nav ul.open {
+      display: block;
+    }
+
+    nav ul li {
+      display: block;
+      margin: 120px 0;
+    }
+
+    nav ul li a{
+      color:#F5F3EF;
+      font-weight: 400;
+      font-size: 24px;
+    }
+
+    .menu-toggle {
+      display: block; 
+      position: absolute;
+      top: 45px;
+      right: 20px;
+      color: #000;
+      font-size: 28px;
+      cursor: pointer;
+    }
+
+  }
+
+/* Navbar mobile */
+    @media (max-width:767px) {
+      .container {
+        padding: 20px 7%;
+      }
+
+      nav ul {
+        top: 50px; 
+      }
+
+      .logo {
+        width: 200px; 
+        height: 40px;
+      }
+
+      nav ul li {
+        display: block;
+        margin: 90px 0;
+      }
+
+      nav ul li a{
+        font-weight: 300;
+        font-size: 22px;
+      }
+
+      .menu-toggle {
+        top: 25px;
+        font-size: 24px;
+      }
+
+    }
+
+
+
+
+/* hero section */
+
+    .text-container {
+      display: flex;
+      width: 100%;
+      padding-bottom: 50px;
+      padding: 60px 7%;
+    }
+    
+    .main-column .alternate-font {
+      display: inline-block;
+      animation-name: loading;
+      animation-duration: 2s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+    
+    .main-column .alternate-font-a {
+      display: inline-block;
+      animation-name: loading; 
+      animation-duration: 2s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-delay: 1s; 
+    }
+    
+    .alternate-font{
+      font-family: "Rock Salt", cursive;
+      font-size: 110px;
+      font-weight: 800;
+      color: #1287a8;
+    }
+
+
+   /* Animazione flip and rotate */
+    @keyframes loading {
+      0%, 80% {
+          transform: rotateY(360deg);
+      }
+    }
+
+    .text-container p{
+      padding-top: 10px;
+    }
+
+    .main-column {
+      flex: 2; 
+      padding-right: 120px;
+    }
+
+    .main-column h1 {
+      font-size: 160px;
+    }
+
+    .main-column h2{
+      font-size: 40px;
+    }
+
+    .side-column {
+      flex: 1; 
+      display: flex;
+      flex-direction: column;
+      padding-left: 60px;
+      justify-content: end;
+      text-align: end;
+    }
+
+
+    .full-width-row {
+      padding: 10px;
+    }
+
+    .full-row-1 h3{
+      font-size: 24px;
+    }
+
+    .full-row-1 p{
+      padding-bottom: 30px;
+      font-size: 18px;
+    }
+
+    .full-row-2 {
+     display: flex;
+     gap: 20px;
+     justify-content: right;
+    }
+
+    .full-row-2 p {
+      text-align: end;
+    }
+
+    .full-row-2 img {
+      width: 40px;
+      height: 40px;
+    }
+
+
+
+/* hero section image*/
+
+  .img-container-1 img {
+      width: 100%;
+      height: 60vh;
+      padding: 40px 7%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+
+
+/* hero section tablet*/
+      @media screen and (max-width: 991px) {
+        .text-container {
+          display: grid;
+          grid-template-columns: 1fr;
+          padding: 60px 7%;
+        }
+
+        .main-column {
+          flex: 1; 
+          padding-right: 0px;
+        }
+      
+        .main-column h1 {
+          font-size: 120px;
+        }
+
+        .main-column h2{
+          font-size: 35px;
+          padding-top: 20px;
+        }
+
+        .alternate-font {
+          font-size: 90px;
+        }
+
+        .side-column {
+          flex: 1; 
+          display: grid;
+          padding-left: 0px;
+          justify-content: start;
+          text-align: start;
+        }
+
+        .full-width-row {
+          padding: 0px;
+          padding-top: 20px;
+        }
+      
+        .full-row-1 h3{
+          font-size: 24px;
+        }
+      
+        .full-row-1 p{
+          padding-bottom: 20px;
+          font-size: 18px;
+        }
+      
+        .img-container-1 img {
+          width: 100%;
+          height: 60%; 
+          object-fit: cover;  
+        }
+        
+      }
+
+/* hero section mobile*/
+      @media screen and (max-width: 767px) {
+
+        .main-column h1 {
+          font-size: 60px;
+        }
+
+        .main-column h2{
+          font-size: 24px;
+          padding-top: 20px;
+        }
+
+        .alternate-font {
+          font-size: 40px;
+        }
+      
+        .full-row-1 h3{
+          font-size: 20px;
+        }
+      
+        .full-row-1 p{
+          padding-bottom: 20px;
+          font-size: 16px;
+        }
+
+        .img-container-1 img {
+          width: 100%;
+          height: 60%;   
+        }
+      }
+
+
