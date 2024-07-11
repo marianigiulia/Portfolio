@@ -5,14 +5,24 @@
 }
 
 @font-face {
-  font-family: 'OpenSans';
-  src: url(assets/fonts/OpenSans-VariableFont_wdth,wght.ttf);
-}
-
+  font-family: 'KC Stone Cold Fox';
+  src: url(assets/fonts/KCStoneColdFox.otf);
+  }
+  
+  @font-face {
+    font-family: 'KC Pixel Hand';
+    src: url(assets/fonts/KCPixelHand.otf);
+    }
+  
+  @font-face {
+    font-family: 'Montserrat Alternates';
+    src: url(assets/fonts/MontserratAlternates-Regular.ttf);
+    }
+    
 
 body {
     background: #F5F3EF;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'KC Stone Cold Fox';
 }
 
 /* Navbar */
@@ -164,6 +174,7 @@ body {
       .contact-section {
           margin: 40px 7%;
           text-align: left;
+          line-height: 1.2;
       }
 
       .indent {
@@ -174,6 +185,7 @@ body {
         font-weight: bold; 
         margin: 0; 
         font-size: 180px;
+        font-weight: 200;
       }
         
       .contact-text .alternate-font {
@@ -189,9 +201,9 @@ body {
       }
 
       .alternate-font{
-        font-family: "Rock Salt", cursive;
-        font-size: 110px;
-        font-weight: 800;
+        font-family: "KC Stone Cold Fox";
+        font-size: 180px;
+        font-weight: 200;
         color: #1287a8;
       }
         
@@ -226,7 +238,7 @@ body {
           }
 
           .alternate-font {
-            font-size: 90px;
+            font-size: 120px;
           }
         }
 
@@ -238,11 +250,11 @@ body {
         }
 
         .contact-text h1 {
-          font-size: 50px;
+          font-size: 70px;
         }
 
         .alternate-font {
-          font-size: 30px;
+          font-size: 70px;
         }
 
         .indent {
@@ -267,8 +279,13 @@ body {
         font-size: 27px;
         font-weight: 600;
         padding-bottom: 20px;
+        font-weight: 200;
     }
-    
+
+    .input-field-group, .input-field{
+      font-family: 'Montserrat Alternates';
+    }
+
     .visually-hidden {
       position: absolute;
       width: 1px;
@@ -278,6 +295,7 @@ body {
       overflow: hidden;
       clip: rect(0, 0, 0, 0);
       border: 0;
+      font-family: 'Montserrat Alternates';
   }
 
     .input-field input,
@@ -287,6 +305,7 @@ body {
         margin-top: 5px;
         box-sizing: border-box;
         font-size: 16px; 
+        font-family: 'Montserrat Alternates';
     }
 
     .input-field select {
@@ -295,6 +314,7 @@ body {
         margin-top: 5px;
         outline: none;
         font-size: 16px; 
+        font-family: 'Montserrat Alternates';
     }
 
     .input-field-group {
@@ -317,12 +337,14 @@ body {
 
     button {
         background-color: #333;
+        font-family: "KC Stone Cold Fox";
         color: #F5F3EF;
         font-size: 16px;
         border-radius: 10px;
-        padding: 12px 34px;
+        padding: 16px 34px;
         cursor: pointer;
         border: none;
+        letter-spacing: 2px;
     }
 
     button:hover {
@@ -347,11 +369,16 @@ body {
 
     .right-column h2 {
       padding-left: 60px;
+      font-family: 'Montserrat Alternates';
       font-size: 20px;
       padding-bottom: 30px;
       letter-spacing: 1px;
       line-height: 1.5;
       text-align: right;
+    }
+
+    .right-column p {
+      font-family: 'Montserrat Alternates';
     }
     
 
@@ -398,7 +425,7 @@ body {
           font-size: 24px;
       }
         .social-icons img{
-          padding-top: 40px;
+          padding-top: 80px;
         }
 
         .right-column h2 {

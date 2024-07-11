@@ -5,14 +5,25 @@
 }
 
 @font-face {
-font-family: 'OpenSans';
-src: url(assets/fonts/OpenSans-VariableFont_wdth,wght.ttf);
-}
-
+  font-family: 'KC Stone Cold Fox';
+  src: url(assets/fonts/KCStoneColdFox.otf);
+  }
+  
+  @font-face {
+    font-family: 'KC Pixel Hand';
+    src: url(assets/fonts/KCPixelHand.otf);
+    }
+  
+  @font-face {
+    font-family: 'Montserrat Alternates';
+    src: url(assets/fonts/MontserratAlternates-Regular.ttf);
+    }
+  
+  
 
 body {
   background: #F5F3EF;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'KC Stone Cold Fox';
 }
 
 
@@ -205,9 +216,9 @@ body {
     }
     
     .alternate-font{
-      font-family: "Rock Salt", cursive;
-      font-size: 110px;
-      font-weight: 800;
+      font-family: "KC Stone Cold Fox";
+      font-size: 160px;
+      font-weight: 200;
       color: #1287a8;
     }
 
@@ -230,10 +241,13 @@ body {
 
     .main-column h1 {
       font-size: 160px;
+      font-weight: 200;
     }
 
     .main-column h2{
+      padding-top: 30px;
       font-size: 40px;
+      font-weight: 50;
     }
 
     .side-column {
@@ -252,11 +266,14 @@ body {
 
     .full-row-1 h3{
       font-size: 24px;
+      font-weight: 50;
     }
 
     .full-row-1 p{
       padding-bottom: 30px;
       font-size: 18px;
+      font-family: 'Montserrat Alternates';
+      font-weight: 500;
     }
 
     .full-row-2 {
@@ -326,7 +343,7 @@ body {
         }
 
         .alternate-font {
-          font-size: 90px;
+          font-size: 120px;
         }
 
         .side-column {
@@ -394,7 +411,7 @@ body {
         }
 
         .alternate-font {
-          font-size: 40px;
+          font-size: 60px;
         }
       
         .full-row-1 h3{
@@ -455,12 +472,15 @@ body {
           .big-column p{
               padding-top: 30px;
               font-size: 22px;
+              font-family: 'Montserrat Alternates';
+              font-weight: 500;
           }
           
           .small-column {
               padding-top: 10px;
               font-size: 40px;
               line-height: 1.5;
+              font-weight: 200;
           }
 
 
@@ -739,11 +759,12 @@ body {
             color: #F5F3EF;
             border: none;
             border-radius: 10px;
-            padding: 12px 34px;
+            padding: 16px 34px;
             font-size: 16px;
             background: #333;
             position: relative;
             cursor: pointer;
+            letter-spacing: 2px;
           }
           
           .button a:hover {
@@ -757,7 +778,7 @@ body {
                 }
   
                 .button a {
-                  padding: 10px 30px; 
+                  padding: 16px 30px; 
                   font-size: 14px; 
                 }
               }
@@ -788,13 +809,13 @@ body {
       }
 
       .contact-text{
-          margin-top: 150px;
+          margin-top: 130px;
+          line-height: 1.3;
       }
 
       .alternate-font-footer{
-          font-family: "Rock Salt", cursive;
-          font-size: 80px;
-          font-weight: 800;
+          font-family: "KC Stone Cold Fox";
+          font-size: 120px;
           color: #5da9e9; 
       }
 
@@ -883,15 +904,17 @@ body {
           }
 
           .contact-action h2 {
-          padding-bottom: 30px;
-          font-size: 18px;
-          letter-spacing: 2px;
-          line-height: 1.5;
-          text-align: right;
+            padding-bottom: 30px;
+            font-family: 'Montserrat Alternates';
+            font-size: 18px;
+            letter-spacing: 2px;
+            line-height: 1.5;
+            text-align: right;
           }
 
           .contact-action p{
-          margin-bottom: 50px;
+            margin-bottom: 50px;
+            font-family: 'Montserrat Alternates';
           }
 
 
@@ -923,7 +946,7 @@ body {
           }
 
           .alternate-font-footer{
-          font-size: 80px;
+          font-size: 120px;
           }
 
           .arrow-icon img {
@@ -949,7 +972,7 @@ body {
           }
 
           .alternate-font-footer{
-              font-size: 50px;
+              font-size: 70px;
           }
 
           .contact-action h2 {

@@ -5,13 +5,25 @@
 }
 
 @font-face {
-  font-family: 'OpenSans';
-  src: url(assets/fonts/OpenSans-VariableFont_wdth,wght.ttf);
-}
+  font-family: 'KC Stone Cold Fox';
+  src: url(assets/fonts/KCStoneColdFox.otf);
+  }
+  
+  @font-face {
+    font-family: 'KC Pixel Hand';
+    src: url(assets/fonts/KCPixelHand.otf);
+    }
+  
+  @font-face {
+    font-family: 'Montserrat Alternates';
+    src: url(assets/fonts/MontserratAlternates-Regular.ttf);
+    }
+  
+  
 
 body {
     background: #F5F3EF;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'KC Stone Cold Fox';
 }
 
 /* Navbar */
@@ -176,9 +188,9 @@ body {
         }
 
         .alternate-font{
-          font-family: "Rock Salt", cursive;
-          font-size: 130px;
-          font-weight: 800;
+          font-family: 'KC Stone Cold Fox';
+          font-size: 180px;
+          font-weight: 200;
           color: #1287a8; 
         }
         
@@ -192,9 +204,14 @@ body {
         .big-column {
           position: sticky;
           top: 120px; 
-          font-size: 130px; 
           text-align: right; 
           padding-right: 70px; 
+        }
+
+        .big-column h2{
+          font-size: 180px; 
+          text-align: right;
+          font-weight: 200;
         }
 
         .grid-container {
@@ -218,12 +235,15 @@ body {
         .small-column h1 {
           padding-top: 20px;
           font-size: 60px;
+          font-weight: 100;
         }
 
         .small-column p{
         font-size: 18px;
         line-height: 1.5;
         padding-top: 30px;
+        font-family: 'Montserrat Alternates';
+        font-weight: 500;
         }
 
         .small-column ul{
@@ -231,6 +251,8 @@ body {
         font-size: 18px;
         line-height: 1.5;
         border-bottom: 2px solid #000;
+        font-family: 'Montserrat Alternates';
+        font-weight: 500;
         }
 
         .reveal2 {
@@ -261,13 +283,17 @@ body {
         }
 
         .alternate-font{
-          font-size: 80px;
+          font-size: 100px;
         }
        
+        .big-column h2{
+          text-align: center;
+          font-weight: 200;
+          font-size: 100px;
+        }
+
         .big-column {
-            position: relative; 
-            font-size: 100px; 
-            text-align: center; 
+            position: relative;  
             top: 30px;
             padding-right: 0; 
             margin-bottom: 20px; 
@@ -306,7 +332,7 @@ body {
           }
 
           .alternate-font{
-            font-size: 40px;
+            font-size: 60px;
           }
             
           .small-column h1 {
@@ -338,14 +364,14 @@ body {
           }
 
           .contact-text{
-            margin-top: 150px;
+            margin-top: 130px;
+            line-height: 1.3;
           }
 
           .alternate-font-footer{
-            font-family: "Rock Salt", cursive;
-            font-size: 80px;
-            font-weight: 800;
-            color: #5DA9E9; 
+            font-family: "KC Stone Cold Fox";
+            font-size: 120px;
+            color: #5da9e9;
           }
 
           /* Animation */
@@ -434,6 +460,7 @@ body {
 
           .contact-action h2 {
           padding-bottom: 30px;
+          font-family: 'Montserrat Alternates';
           font-size: 18px;
           letter-spacing: 2px;
           line-height: 1.5;
@@ -442,6 +469,7 @@ body {
 
           .contact-action p{
           margin-bottom: 50px;
+          font-family: 'Montserrat Alternates';
           }
 
 
@@ -473,7 +501,7 @@ body {
         }
 
         .alternate-font-footer{
-          font-size: 80px;
+          font-size: 100px;
         }
 
         .arrow-icon img {
@@ -499,7 +527,7 @@ body {
           }
 
           .alternate-font-footer{
-            font-size: 50px;
+            font-size: 70px;
           }
 
           .contact-action h2 {

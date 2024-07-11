@@ -5,13 +5,25 @@
 }
 
 @font-face {
-font-family: 'OpenSans';
-src: url(assets/fonts/OpenSans-VariableFont_wdth,wght.ttf);
+font-family: 'KC Stone Cold Fox';
+src: url(assets/fonts/KCStoneColdFox.otf);
 }
+
+@font-face {
+  font-family: 'KC Pixel Hand';
+  src: url(assets/fonts/KCPixelHand.otf);
+  }
+
+@font-face {
+  font-family: 'Montserrat Alternates';
+  src: url(assets/fonts/MontserratAlternates-Regular.ttf);
+  }
+
+
 
 body {
   background: #F5F3EF;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'KC Stone Cold Fox';
   width: 100%;
 }
 
@@ -161,65 +173,91 @@ body {
 
 /* hero section */
 
-    .hero-section {
-        color: #000; 
-        padding: 40px 7%;
-      }
-      
-      .hero-section h1,
-      .hero-section h2 {
-        margin: 0; 
-        font-size: 180px;
-      }
-      
-      .hero-section h1 span,
-      .hero-section h2 span {
-        color: #1287a8; 
-      }
-      
-
-    .highlight-header, .highlight-header-1 {
-        text-align: end;
-    }
-    .highlight-header-1{
-      margin-left: 15%;
-    }
-
-    .highlight-header h1, .highlight-header h2 {
-        display: inline; 
-        margin-right: 5px; 
-    }
-
-    .alternate-font{
-      font-family: "Rock Salt", cursive;
-      font-size: 110px;
-      font-weight: 400;
-    }
-    
-    .hero-section .alternate-font {
-        display: inline-block;
-        animation-name: loading;
-        animation-duration: 2s;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
-    }
-
-    .hero-section h1:nth-child(1) .alternate-font { 
-        animation-delay: 0.2s;
-    }
-
-    .highlight-header h2 .alternate-font { 
-        animation-delay: 0.5s;
-    }
-
-    /* Animazione flip and rotate */
-    @keyframes loading {
-        0%, 80% {
-            transform: rotateY(360deg);
+        .hero-section {
+          color: #000; 
+          padding: 40px 7%;
         }
-      }
 
-      .move-left, .move-right {
+        .hero-section h1 {
+          margin: 0; 
+          font-size: 180px;
+          font-weight: 200;
+          position: relative;
+          line-height: 0.9;
+        }
+
+        .hero-section h1 span {
+          color: #1287a8; 
+        }
+
+        .alternate-font {
+          font-family: "KC Stone Cold Fox";
+          font-size: 180px;
+          font-weight: 200;
+          display: inline-block;
+          vertical-align: middle;
+          position: relative;
+          height: 200px;
+        }
+
+        .words {
+          display: inline-block;
+          position: relative;
+          height: 200px;
+          width: 750px; 
+          overflow: hidden;
+        }
+
+        .words span {
+          position: absolute;
+          width: 100%;
+          text-align: left;
+          opacity: 0;
+          animation: change-text 6s linear infinite;
+        }
+
+        .words span:nth-child(1) {
+          animation-delay: 0s;
+        }
+
+        .words span:nth-child(2) {
+          animation-delay: 2s;
+        }
+
+        .words span:nth-child(3) {
+          animation-delay: 4s;
+        }
+
+        @keyframes change-text {
+            0% {
+                  opacity: 0;
+                  transform: translateY(-50px);
+            }
+
+            2% {
+                  opacity: 1;
+                  transform: translateY(0px);
+            }
+
+            18% {
+                  opacity: 1;
+                  transform: translateY(0px);
+            }
+
+            20% {
+                  opacity: 0;
+                  transform: translateY(50px);
+            }
+
+            100% {
+                  opacity: 0;
+                  transform: translateY(50px);
+            }
+            }
+
+
+
+      .move-left {
         position: relative;
         max-width: 100%;
       }
@@ -259,18 +297,16 @@ body {
           padding: 40px 7%; 
         }
 
-        .move-right {
-          padding: 0px 7%; 
-        }
-
-        .hero-section h1,
-        .hero-section h2 {
+        .hero-section h1 {
             font-size: 120px; 
+            font-weight: 200;
+            line-height: 1.0;
         }
       
         .alternate-font{
-          font-size: 80px;
-          font-family: "Rock Salt", cursive;
+          font-size: 120px;
+          font-weight: 200;
+          height: 130px;
         }
 
         .img-container {
@@ -293,18 +329,37 @@ body {
       @media (max-width: 767px) 
       {
         
-        .hero-section h1,
-        .hero-section h2 {
+        .hero-section h1 {
             font-size: 60px; 
+            font-weight: 100;
         }
 
         .alternate-font{
-          font-size: 40px;
-          font-family: "Rock Salt", cursive;
+          font-size: 60px;
+          font-weight: 100;
+          height: 70px;
+          
         }
+
+        .words {
+          display: inline-block;
+          position: relative;
+          height: 200px;
+          width: 400px; /* Adjust width to fit the longest word */
+          overflow: hidden;
+        }
+        
+        .words span {
+          position: absolute;
+          width: 20%;
+          text-align: left;
+          opacity: 0;
+          animation: change-text 6s linear infinite;
+        }
+        
       
         .img-container {
-          margin-top: 60px;   
+          margin-top: 20px;   
         }
 
         .img-container img{
@@ -359,6 +414,10 @@ body {
       font-size: 40px;
     }
 
+    .big-column h2 {
+      font-weight: 100;
+    }
+
     .small-column {
       display: flex;
       flex-direction: column;
@@ -366,6 +425,10 @@ body {
       height: 100px;        
       padding-left: 20px;
       font-size: 27px;
+    }
+
+    .small-column h3 {
+      font-weight: 50;
     }
 
     .social-icons {
@@ -394,10 +457,18 @@ body {
         font-size: 28px;
       }
 
+      .big-column h2 {
+        font-weight: 100;
+      }  
+
       .small-column {
         padding-left: 0px;
         padding-top: 20px;
         font-size: 24px;
+      }
+
+      .small-column h3 {
+        font-weight: 50;
       }
 
       .social-icons {
@@ -408,7 +479,7 @@ body {
 
       .social-icons img {
         width: 50px;
-        height: 50px;
+        height: 60px;
         padding-top: 20px;
         padding-right: 10px;
       }
@@ -420,9 +491,17 @@ body {
         font-size: 24px;
       }
 
+      .big-column h2 {
+        font-weight: 100;
+      }  
+
       .small-column {
         padding-top: 0px;
         font-size: 20px;
+      }
+
+      .small-column h3 {
+        font-weight: 50;
       }
 
       .social-icons img {
@@ -453,6 +532,10 @@ body {
         font-size: 27px;
       }
 
+      .small-column-1 h3{
+        font-weight: 50;
+      }
+
       .complex-column {
         display: grid;
         grid-template-columns: repeat(2, 1fr); 
@@ -466,10 +549,13 @@ body {
 
       .complex-column h3{
         font-size: 40px;
+        font-weight: 50;
       }
 
       .complex-column p{
         font-size: 18px;
+        font-family: 'Montserrat Alternates';
+        font-weight: 500;
         padding-top: 20px;
         line-height: 1.5;
       }
@@ -510,6 +596,10 @@ body {
           margin-bottom: 0px; 
         }
 
+        .small-column-1 h3{
+          font-weight: 50;
+        }
+
         .complex-column {
           display: block; 
           border: none; 
@@ -519,11 +609,13 @@ body {
 
         .complex-column h3 {
           font-size: 35px; 
+          font-weight: 50;
         }
 
         .complex-column p {
           font-size: 18px; 
           padding-top: 10px; 
+          font-weight: 500;
         }
 
         .upper-left {
@@ -579,9 +671,9 @@ body {
 
       .scroll h2 {
         color: #000;
-        font-family: "Rock Salt", cursive;
-        font-size: 80px;
-        font-weight: 200;
+        font-family: "KC Pixel Hand";
+        font-size: 90px;
+        font-weight: 100;
         padding-top: 60px;
       }
 
@@ -669,6 +761,11 @@ body {
         font-size: 16px;
         line-height: 1.5;
       }
+
+      .small-column-2 p {
+        font-family: 'Montserrat Alternates';
+        font-weight: 500;
+      }
       
       .button {
         display: flex;
@@ -686,6 +783,7 @@ body {
         background: #333;
         position: relative;
         cursor: pointer;
+        letter-spacing: 2px;
       }
       
       .button a:hover {
@@ -740,7 +838,11 @@ body {
         font-size: 16px;
         line-height: 1.5;
       }
-
+      .small-column-3 p {
+        font-family: 'Montserrat Alternates';
+        font-weight: 500;
+      }
+      
 
 /* projects tablet */
 
@@ -878,13 +980,13 @@ body {
     }
     
     .contact-text{
-      margin-top: 150px;
+      margin-top: 130px;
+      line-height: 1.3;
     }
     
     .alternate-font-footer{
-      font-family: "Rock Salt", cursive;
-      font-size: 80px;
-      font-weight: 800;
+      font-family: "KC Stone Cold Fox";
+      font-size: 120px;
       color: #5da9e9;
     }
 
@@ -973,6 +1075,7 @@ body {
 
   .contact-action h2 {
     padding-bottom: 30px;
+    font-family: 'Montserrat Alternates';
     font-size: 18px;
     letter-spacing: 2px;
     line-height: 1.5;
@@ -981,6 +1084,7 @@ body {
 
   .contact-action p{
     margin-bottom: 50px;
+    font-family: 'Montserrat Alternates';
   }
 
 
@@ -1012,7 +1116,7 @@ body {
        }
 
        .alternate-font-footer{
-        font-size: 80px;
+        font-size: 120px;
        }
 
        .arrow-icon img {
@@ -1038,7 +1142,7 @@ body {
         }
 
         .alternate-font-footer{
-          font-size: 50px;
+          font-size: 70px;
          }
 
 
