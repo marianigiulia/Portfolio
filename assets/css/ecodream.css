@@ -6,19 +6,30 @@
 
 @font-face {
   font-family: 'KC Stone Cold Fox';
-  src: url(assets/fonts/KCStoneColdFox.otf);
-  }
-  
-  @font-face {
-    font-family: 'KC Pixel Hand';
-    src: url(assets/fonts/KCPixelHand.otf);
-    }
-  
-  @font-face {
-    font-family: 'Montserrat Alternates';
-    src: url(assets/fonts/MontserratAlternates-Regular.ttf);
-    }
-    
+  src: url('KCStoneColdFoxRegular.woff2') format('woff2'),
+      url('KCStoneColdFoxRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'KC Pixel Hand';
+  src: url('KCPixelHandRegular.woff2') format('woff2'),
+      url('KCPixelHandRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat Alternates';
+  src: url('MontserratAlternates-Regular.woff2') format('woff2'),
+      url('MontserratAlternates-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 
 body {
