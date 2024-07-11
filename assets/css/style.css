@@ -157,7 +157,6 @@ body {
         }
 
         nav ul li a{
-          font-weight: 300;
           font-size: 22px;
         }
 
@@ -345,7 +344,7 @@ body {
           display: inline-block;
           position: relative;
           height: 200px;
-          width: 400px; /* Adjust width to fit the longest word */
+          width: 240px; 
           overflow: hidden;
         }
         
