@@ -36,7 +36,7 @@
 
 body {
   background: #F5F3EF;
-  font-family: 'KC Stone Cold Fox';
+  font-family: 'KC Stone Cold Fox', Arial, sans-serif;
   width: 100%;
 }
 
@@ -203,7 +203,7 @@ body {
         }
 
         .alternate-font {
-          font-family: "KC Stone Cold Fox";
+          font-family: 'KC Stone Cold Fox', Arial, sans-serif;
           font-size: 180px;
           font-weight: 200;
           display: inline-block;
@@ -566,7 +566,7 @@ body {
 
       .complex-column p{
         font-size: 18px;
-        font-family: 'Montserrat Alternates';
+        font-family: 'Montserrat Alternates', Arial, sans-serif;
         font-weight: 500;
         padding-top: 20px;
         line-height: 1.5;
@@ -683,7 +683,7 @@ body {
 
       .scroll h2 {
         color: #000;
-        font-family: "KC Pixel Hand";
+        font-family: 'KC Pixel Hand', Arial, sans-serif;
         font-size: 90px;
         font-weight: 100;
         padding-top: 60px;
@@ -775,7 +775,7 @@ body {
       }
 
       .small-column-2 p {
-        font-family: 'Montserrat Alternates';
+        font-family: 'Montserrat Alternates', Arial, sans-serif;
         font-weight: 500;
       }
       
@@ -851,7 +851,7 @@ body {
         line-height: 1.5;
       }
       .small-column-3 p {
-        font-family: 'Montserrat Alternates';
+        font-family: 'Montserrat Alternates', Arial, sans-serif;
         font-weight: 500;
       }
       
@@ -997,7 +997,7 @@ body {
     }
     
     .alternate-font-footer{
-      font-family: "KC Stone Cold Fox";
+      font-family: 'KC Stone Cold Fox', Arial, sans-serif;
       font-size: 120px;
       color: #5da9e9;
     }
@@ -1087,7 +1087,7 @@ body {
 
   .contact-action h2 {
     padding-bottom: 30px;
-    font-family: 'Montserrat Alternates';
+    font-family: 'Montserrat Alternates', Arial, sans-serif;
     font-size: 18px;
     letter-spacing: 2px;
     line-height: 1.5;
@@ -1096,7 +1096,7 @@ body {
 
   .contact-action p{
     margin-bottom: 50px;
-    font-family: 'Montserrat Alternates';
+    font-family: 'Montserrat Alternates', Arial, sans-serif;
   }
 
 
